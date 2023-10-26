@@ -48,10 +48,8 @@ class Employee implements Comparable<Employee> {
                 '}';
     }
 
-    // Внешний компаратор для сортировки по убыванию зарплаты
-    public static Comparator<Employee> salaryComparatorDesc = (e1, e2) -> Double.compare(e2.getSalary(), e1.getSalary());
 
-    // Внешний компаратор для сортировки по наименованию отдела
+    public static Comparator<Employee> salaryComparatorDesc = (e1, e2) -> Double.compare(e2.getSalary(), e1.getSalary());
     public static Comparator<Employee> departmentComparator = Comparator.comparing(Employee::getDepartment);
 }
 
