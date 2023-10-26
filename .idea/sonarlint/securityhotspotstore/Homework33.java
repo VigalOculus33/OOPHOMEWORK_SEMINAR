@@ -85,7 +85,7 @@ public class Homework {
         System.out.println("Сортировка по возрастанию возраста:");
         employees.forEach(System.out::println);
 
-        // Сортировка по убыванию зарплаты (с использованием внешнего компаратора)
+
         Collections.sort(employees, Employee.salaryComparatorDesc);
         System.out.println("\nСортировка по убыванию зарплаты:");
         employees.forEach(System.out::println);
