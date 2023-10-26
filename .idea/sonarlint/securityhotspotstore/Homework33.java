@@ -80,7 +80,7 @@ public class Homework {
         employees.add(new Employee("Isabella", 28, 58000, "Sales"));
 
 
-        // Сортировка по возрастанию возраста (по умолчанию, так как Employee implements Comparable)
+
         Collections.sort(employees);
         System.out.println("Сортировка по возрастанию возраста:");
         employees.forEach(System.out::println);
