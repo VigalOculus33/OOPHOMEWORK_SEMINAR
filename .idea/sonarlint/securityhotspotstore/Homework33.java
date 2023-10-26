@@ -90,7 +90,7 @@ public class Homework {
         System.out.println("\nСортировка по убыванию зарплаты:");
         employees.forEach(System.out::println);
 
-        // Сортировка по наименованию отдела (с использованием внешнего компаратора)
+
         Collections.sort(employees, Employee.departmentComparator);
         System.out.println("\nСортировка по наименованию отдела:");
         employees.forEach(System.out::println);
